@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  /* color: #00bfba; */
+}
+a :hover {
+  color: red;
+}
+.menu_gauche {
+  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 20px;
+}
+.contact {
+  margin-left: 50px;
+}
+#gravizen {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -200px;
+}
+.menu_droite {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -40px;
+  margin-right: 50px;
+}
+.arrow {
+  width: 10px;
+  height: 10px;
+}
+
+img {
+  width: 380px;
+  height: 380px;
+  margin-left: 120px;
+  float: left;
+}
+.texte {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  float: center;
+  margin-left: 200px;
+  color: black;
+}
+.texte .vert {
+  color: #00bfba;
+}
+.sous-partie {
+  margin-top: 180px;
+  justify-content: left;
+  background-color: #00bfba;
+  clip-path: inherit;
+  clip-path: inset(0 0 0 0);
+}
+.LogoGravizen {
+  margin-top: -1px;
+  margin-left: 20px;
+}
+.logo {
+  margin-top: -10px;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+article {
+  margin-top: 250px;
+}
+
+.titre_blanc {
+  margin-top: 10px;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-left: 0px;
+  color: white;
+}
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: -34px;
+  margin-bottom: 32px;
+}
+.icones h5 {
+  font-size: 14px;
+  margin-left: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.icones p {
+  font-size: 13px;
+  text-justify: auto;
+  padding: 7px;
+}
+.phone {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #00bfba;
+}
+.clock {
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #00bfba;
+}
+
+.icone1 {
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 150px;
+}
+.icone2 {
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 150px;
+}
+.icone3 {
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 150px;
+}
+.titres {
+  align-items: center;
+  margin-left: 480px;
+}
+.Grandes_Icones {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.Grande_Icone1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+  margin-bottom: 130px;
+}
+.Grande_Icone2 {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+
+.Grande_Icone3 {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+.Grande_Icone4 {
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+}
+.cross {
+  width: 40%;
+  height: 30%;
+}
+.user {
+  width: 40%;
+  height: 30%;
+}
+.stetho {
+  width: 40%;
+  height: 30%;
+}
+.wheelchair {
+  width: 40%;
+  height: 30%;
+}
+@media screen and (max-width: 1024px) {
+  * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu_droite {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .menu_gauche {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .menu_droite {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .sous-partie {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
